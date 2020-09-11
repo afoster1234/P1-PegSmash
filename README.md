@@ -1,4 +1,5 @@
 ##Project 1, Iteration 2
+
 Austin Foster
 
 ##Project Report
@@ -21,3 +22,7 @@ Austin Foster
 - [ ] ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
 - [ ] ⭐ The background and ground use 2D graphics.
 - [ ] ⭐ A <abbr title="Heads-Up Display">HUD</abbr> shows the current game state such as the score and number of projectiles remaining.
+
+
+## Third-Party Assets
+Images are from "Scribble Platformer". Created by Kenny.nl, CC0 1.0 Universal. Source: https://kenney.nl/assets/scribble-platformer
