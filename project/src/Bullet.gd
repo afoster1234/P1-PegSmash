@@ -6,6 +6,8 @@ export var power_change_rate := 200.0
 var _angle := 0.0
 var _fired := false
 var _power := 500.0
+var _magazine_max := 5
+var _magazine_current := 5
 
 const MIN_POWER := 200
 const MAX_POWER := 1000
@@ -33,6 +35,8 @@ func _process(delta):
 		var direction = Vector2(1,0).rotated(_angle)
 		var velocity = direction * _power
 		apply_impulse(Vector2.ZERO, velocity)
+		_magazine_current -= 1;
+		print(_magazine_current)
 		_fired = true
 
 
@@ -44,4 +48,4 @@ func _draw():
 			MIN_ARROW_LENGTH, 
 			MAX_ARROW_LENGTH)
 		var arrow_angle = Vector2(arrow_length, 0).rotated(_angle)
-		draw_line(Vector2.ZERO, arrow_angle, Color.aliceblue, 5)
+		draw_line(Vector2.ZERO, arrow_angle, Color.red, 5)
