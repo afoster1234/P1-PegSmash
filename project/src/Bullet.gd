@@ -36,9 +36,7 @@ func _process(delta):
 		var velocity = direction * _power
 		apply_impulse(Vector2.ZERO, velocity)
 		_magazine_current -= 1;
-		print(_magazine_current)
 		_fired = true
-
 
 func _draw():
 	if not _fired:
@@ -49,3 +47,8 @@ func _draw():
 			MAX_ARROW_LENGTH)
 		var arrow_angle = Vector2(arrow_length, 0).rotated(_angle)
 		draw_line(Vector2.ZERO, arrow_angle, Color.red, 5)
+
+
+func _on_Bullet_sleeping_state_changed():
+	queue_free()
+
