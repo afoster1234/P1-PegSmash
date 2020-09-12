@@ -32,9 +32,6 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 [node name="Level" type="Node2D"]
 script = ExtResource( 2 )
 
-[node name="Position2D" type="Position2D" parent="."]
-position = Vector2( 32.0723, 607.593 )
-
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 2 )
 format = 1
