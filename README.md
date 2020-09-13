@@ -1,8 +1,8 @@
-##Project 1, Iteration 2
+## Project 1, Iteration 2
 
 Austin Foster
 
-##INSTRUCTIONS 
+## INSTRUCTIONS 
 
                     KEY:ACTION
                       TAB: Load Chamber
@@ -16,7 +16,8 @@ Clear all targets to WIN!
 NOTE*
 Projectile is not always 100% accurate | Falling speed affects accuracy
 
-##Project Report
+
+## Project Report
 
 
 - [X] D-1: The repository link is submitted to Canvas before the project deadline.
@@ -24,18 +25,18 @@ Projectile is not always 100% accurate | Falling speed affects accuracy
 - [X] D-3: The project content is eligible for an <a href="https://www.esrb.org/ratings-guide/">ESRB Rating</a> of M or less.
 - [X] C-1: Your repository is well-formed, with an appropriate <code>.gitignore</code> file and no unnecessary files tracked.
 - [ ] C-2: Your release is tagged using <a href="https://semver.org/">semantic versioning</a> where the major version is zero, the minor version is the iteration number, and the patch version is incremented as usual for each change made to the minor version, and the release name matches the release tag.
-- [ ] C-3: You have a clear legal right to use all incorporated assets, and the licenses for all third-party assets are tracked in the <code>README.md</code> file.
-- [ ] C-4: The <code>README.md</code> contains instructions for how to play the game or such instructions are incorporated into the game itself.
-- [ ] C-5: The project content is eligible for an <a href="https://www.esrb.org/ratings-guide/">ESRB Rating</a> of T or less.
-- [ ] C-6: The projectile and targets are shown with 2D graphics.
-- [ ] C-7: The game plays an appropriate sound effect when the projectile is fired.
-- [ ] B-1: The <code>README.md</code> file contains a personal reflection on the iteration and self-evaluation, as defined above.
+- [X] C-3: You have a clear legal right to use all incorporated assets, and the licenses for all third-party assets are tracked in the <code>README.md</code> file.
+- [X] C-4: The <code>README.md</code> contains instructions for how to play the game or such instructions are incorporated into the game itself.
+- [X] C-5: The project content is eligible for an <a href="https://www.esrb.org/ratings-guide/">ESRB Rating</a> of T or less.
+- [X] C-6: The projectile and targets are shown with 2D graphics.
+- [X] C-7: The game plays an appropriate sound effect when the projectile is fired.
+- [X] B-1: The <code>README.md</code> file contains a personal reflection on the iteration and self-evaluation, as defined above.
 - [ ] B-2: The playable game is published to GitHub Pages and linked from the <code>README.md</code> file.
-- [ ] B-3: Earn one star.
+- [X] B-3: Earn one star.
 - [ ] A-1: Earn three stars.
-- [ ] ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
-- [ ] ⭐ The background and ground use 2D graphics.
-- [ ] ⭐ A <abbr title="Heads-Up Display">HUD</abbr> shows the current game state such as the score and number of projectiles remaining.
+- [X] ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
+- [X] ⭐ The background and ground use 2D graphics.
+- [X] ⭐ A <abbr title="Heads-Up Display">HUD</abbr> shows the current game state such as the score and number of projectiles remaining.
 
 
 ## Third-Party Assets
