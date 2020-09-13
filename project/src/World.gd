@@ -6,7 +6,7 @@ var magazine_size := 10
 var targets_remaining = 6
 var ready_for_fire := true
 
-func _process(delta):
+func _process(_delta):
 	
 	if Input.is_action_just_pressed("reload"):
 		if ready_for_fire:
