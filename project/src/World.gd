@@ -4,10 +4,9 @@ var bullet_preload = preload("res://src/Bullet.tscn")
 
 var magazine_size := 10
 var targets_remaining = 6
-var ready_for_fire := true
+var ready_for_fire := false
 
 func _process(_delta):
-	
 	if Input.is_action_just_pressed("reload"):
 		if ready_for_fire:
 			load_bullet()
