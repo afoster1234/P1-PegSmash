@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/load_chamber.wav-cadd1e87ba356b0ce3aa85d85ce4e1e3.sample"
+
+[deps]
+
+source_file="res://assets/load_chamber.wav"
+dest_files=[ "res://.import/load_chamber.wav-cadd1e87ba356b0ce3aa85d85ce4e1e3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

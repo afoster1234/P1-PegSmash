@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile_coin.png-f67a8519ddf59f66136bfb278c3ffeb1.stex"
+path="res://.import/ui_circle.png-338d74958bd0f7623a40e047e372ea43.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tile_coin.png"
-dest_files=[ "res://.import/tile_coin.png-f67a8519ddf59f66136bfb278c3ffeb1.stex" ]
+source_file="res://assets/ui_circle.png"
+dest_files=[ "res://.import/ui_circle.png-338d74958bd0f7623a40e047e372ea43.stex" ]
 
 [params]
 

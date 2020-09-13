@@ -36,6 +36,7 @@ func _process(delta):
 		var velocity = direction * bullet_power
 		apply_impulse(Vector2.ZERO, velocity)
 		_magazine_current -= 1;
+		$Fire.play()
 		is_fired = true
 
 func _draw():
