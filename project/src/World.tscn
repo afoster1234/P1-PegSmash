@@ -28,6 +28,73 @@ position = Vector2( 424, 568 )
 position = Vector2( 1016, 320 )
 
 [node name="BulletTimer" type="Timer" parent="."]
-wait_time = 4.0
+wait_time = 6.0
 autostart = true
+
+[node name="BulletCount" type="Label" parent="."]
+margin_left = 184.0
+margin_top = 24.0
+margin_right = 304.0
+margin_bottom = 38.0
+text = "10"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TargetCount" type="Label" parent="."]
+margin_left = 184.0
+margin_top = 48.0
+margin_right = 216.0
+margin_bottom = 62.0
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Targets" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 48.0
+margin_right = 185.0
+margin_bottom = 62.0
+text = "Targets Remaining:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bullets" type="Label" parent="."]
+margin_left = 64.0
+margin_top = 24.0
+margin_right = 184.0
+margin_bottom = 38.0
+text = "Bullets Remaining:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Reload" type="Button" parent="."]
+margin_left = 216.0
+margin_top = 24.0
+margin_right = 328.0
+margin_bottom = 64.0
+text = "RELOAD"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WinMessage" type="Label" parent="."]
+margin_left = 80.0
+margin_top = 48.0
+margin_right = 248.0
+margin_bottom = 104.0
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="hit" from="Peg1" to="." method="_on_Peg1_hit"]
+[connection signal="hit" from="Peg2" to="." method="_on_Peg2_hit"]
+[connection signal="hit" from="Peg3" to="." method="_on_Peg3_hit"]
+[connection signal="hit" from="Peg5" to="." method="_on_Peg5_hit"]
+[connection signal="hit" from="Peg6" to="." method="_on_Peg6_hit"]
 [connection signal="timeout" from="BulletTimer" to="." method="_on_BulletTimer_timeout"]
+[connection signal="pressed" from="Reload" to="." method="_on_Reload_pressed"]
