@@ -7,16 +7,15 @@ var targets_remaining = 6
 var ready_for_fire := false
 
 func _process(_delta):
+	if ready_for_fire == false:
+		$ReloadMessage.text = ("Preparing Chamber")
+	if ready_for_fire == true:
+		$ReloadMessage.text = ("Chamber Ready")
+	if targets_remaining == 0:
+		$WinMessage.text = ("YOU WIN!")
 	if Input.is_action_just_pressed("reload"):
 		if ready_for_fire:
 			load_bullet()
-
-	if targets_remaining == 0:
-		$WinMessage.text = ("YOU WIN!")
-	if ready_for_fire == true:
-		$ReloadMessage.text = ("Chamber Ready")
-	if ready_for_fire == false:
-		$ReloadMessage.text = ("Preparing Chamber")
 
 func load_bullet():
 	if magazine_size > 0:
