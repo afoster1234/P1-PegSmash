@@ -10,11 +10,9 @@ Austin Foster | https://afoster1234.github.io/P1-PegSmash/
                         F: Fires Projectile
             Reload Button: Reloads Magazine to 10
 
-Clear all targets to WIN!
-
-NOTE*
-Projectile is not always 100% accurate | Falling speed affects accuracy
-
+OBJECTIVE: Clear all targets to WIN!
+NOTE: Angle Control is locked to only allow shots from zero to ninety degrees. Timing is key!
+NOTE: Projectile Path may not be 100% accurate because it is falling when you fire it.
 
 ## Project Report
 Coding this project has been the most enjoyable yet. This is also the most polished game I have created to date. Granted the premise is simple, but the more I learn to use Godot Engine the more I am able to do with it. I now have a better understanding of how the pieces all fit together and playing with the sounds is a lot of fun. Completing this assignment has made me think a lot about just how endless the possibilities are with game programming. Creativity is something that I pride myself on having and I think this game shows that. The most challenging thing I think this time around was when deciding how I wanted my inventory system to work and how I instanced the projectile. This was by far the most challenging but at the same time, very rewarding when I finally figured it out. I can not wait for Iteration 3!
@@ -36,6 +34,8 @@ Coding this project has been the most enjoyable yet. This is also the most polis
 - [X] ⭐ The player has a small inventory of projectiles, and only one can be launched at a time.
 - [X] ⭐ The background and ground use 2D graphics.
 - [X] ⭐ A <abbr title="Heads-Up Display">HUD</abbr> shows the current game state such as the score and number of projectiles remaining.
+
+Therefore, this project earns an A.
 
 
 ## Third-Party Assets
