@@ -65,3 +65,5 @@ func _on_Reload_pressed():
 	magazine_size = 10
 	$BulletCount.text = String(magazine_size)
 	$BulletCount.show()
+func _on_Reset_pressed():
+	var _ignored = get_tree().change_scene("res://src/MainUI.tscn")

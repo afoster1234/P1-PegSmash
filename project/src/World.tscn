@@ -106,6 +106,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Reset" type="Button" parent="."]
+margin_left = 376.0
+margin_top = 8.0
+margin_right = 528.0
+margin_bottom = 28.0
+action_mode = 0
+button_mask = 0
+text = "RESET"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="BulletTimer" type="Timer" parent="."]
 wait_time = 6.0
 
@@ -122,4 +134,5 @@ stream = ExtResource( 5 )
 [connection signal="hit" from="Peg5" to="." method="_on_Peg5_hit"]
 [connection signal="hit" from="Peg6" to="." method="_on_Peg6_hit"]
 [connection signal="pressed" from="Reload" to="." method="_on_Reload_pressed"]
+[connection signal="pressed" from="Reset" to="." method="_on_Reset_pressed"]
 [connection signal="timeout" from="BulletTimer" to="." method="_on_BulletTimer_timeout"]
