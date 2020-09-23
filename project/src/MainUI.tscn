@@ -51,6 +51,7 @@ position = Vector2( 656, 368 )
 scale = Vector2( 2.04121, 2.07716 )
 frames = SubResource( 1 )
 animation = "animation"
+frame = 1
 playing = true
 
 [node name="WelcomeMessage" type="Label" parent="."]

@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Peg_Smash"
-run/main_scene="res://src/World.tscn"
+run/main_scene="res://src/MainUI.tscn"
 config/icon="res://icon.png"
 
 [display]
