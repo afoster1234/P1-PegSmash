@@ -8,11 +8,12 @@ const MAX_ARROW_LENGTH := 200.0
 export var rotation_speed := 1.0
 export var power_change_rate := 200.0
 
+var is_fired := false
 var bullet_angle := 50.0
 var bullet_power := 1000.0
 var _magazine_max := 5
 var _magazine_current := 5
-var is_fired := false
+
 
 func _process(delta):
 	if is_fired:
